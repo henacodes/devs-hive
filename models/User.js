@@ -7,11 +7,13 @@ const userSchema = new mongoose.Schema({
   },
   lastName: {
     type: String,
-    required: true,
   },
-  age: {
+  tgId: {
     type: String,
     required: true,
+  },
+  isDeveloper: {
+    type: Boolean,
   },
 });
 
